@@ -1,0 +1,280 @@
+# Query: LaTeX
+# ContextLines: 1
+
+134 results - 8 files
+
+cl-latex-G584992025/.gitignore:
+    2  .DS_Store
+    3: ## Core latex/pdflatex auxiliary files:
+    4  #*.aux
+
+   28  
+   29: ## Bibliography auxiliary files (bibtex/biblatex/biber):
+   30  *.bbl
+
+   37  ## Build tool auxiliary files:
+   38: *.fdb_latexmk
+   39  *.synctex
+
+   45  ## Build tool directories for auxiliary files
+   46: # latexrun
+   47: latex.out/
+   48  
+
+  126  
+  127: # htlatex
+  128  *.4ct
+
+  240  
+  241: # Latexian
+  242: TSWLatexianTemp*
+  243  
+
+cl-latex-G584992025/.latexmkrc:
+  1: $latex = 'uplatex %O %S';
+  2  $bibtex = 'upbibtex %O %S';
+
+cl-latex-G584992025/exercise.log:
+    1: This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  30 JUN 2025 15:09
+    2  entering extended mode
+
+    5   %&-line parsing enabled.
+    6: **/Users/masahiroy/Desktop/Literacy/cl-latex-G584992025/exercise.tex
+    7: (/Users/masahiroy/Desktop/Literacy/cl-latex-G584992025/exercise.tex
+    8: LaTeX2e <2024-11-01> patch level 2
+    9  L3 programming layer <2025-01-18>
+   10: (/usr/local/texlive/2025/texmf-dist/tex/uplatex/base/ujarticle.cls
+   11  
+   12: /usr/local/texlive/2025/texmf-dist/tex/uplatex/base/ujarticle.cls:17: LaTeX Error: This file needs format `pLaTeX2e'
+   13:                but this is `LaTeX2e'.
+   14  
+   15: See the LaTeX manual or LaTeX Companion for explanation.
+   16  Type  H <return>  for immediate help.
+
+   18                                                    
+   19: l.17 \NeedsTeXFormat{pLaTeX2e}
+   20                                
+
+   25  
+   26: ) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+   27: Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+   28:  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+   29  Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+   30  \KV@toks@=\toks17
+   31: ) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+   32: Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+   33:  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+   34  Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+   35: ) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+   36  File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+
+   38  Package graphics Info: Driver file: dvipdfmx.def on input line 106.
+   39:  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+   40  File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
+
+   43  \Gin@req@width=\dimen142
+   44: ) (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+   45  \Urlmuskip=\muskip17
+
+   48  
+   49: /Users/masahiroy/Desktop/Literacy/cl-latex-G584992025/exercise.tex:12: LaTeX Error: Backend request inconsistent with engine: using 'pdftex'
+   50: (LaTeX)        backend.
+   51  
+
+   58  You have requested backend 'dvipdfmx', but this is not suitable for use with
+   59: the active engine. LaTeX will use the 'pdftex' backend instead.
+   60  
+   61  
+   62: (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+   63  File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+
+   69  
+   70: LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+   71: LaTeX Font Info:    ... okay on input line 12.
+   72: LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+   73: LaTeX Font Info:    ... okay on input line 12.
+   74: LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+   75: LaTeX Font Info:    ... okay on input line 12.
+   76: LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+   77: LaTeX Font Info:    ... okay on input line 12.
+   78: LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+   79: LaTeX Font Info:    ... okay on input line 12.
+   80: LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+   81: LaTeX Font Info:    ... okay on input line 12.
+   82: LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+   83: LaTeX Font Info:    ... okay on input line 12.
+   84  
+   85: /Users/masahiroy/Desktop/Literacy/cl-latex-G584992025/exercise.tex:12: LaTeX Error: The font size command \normalsize is not defined:
+   86                 there is probably something wrong with the class file.
+   87  
+   88: See the LaTeX manual or LaTeX Companion for explanation.
+   89  Type  H <return>  for immediate help.
+
+   97  
+   98: /Users/masahiroy/Desktop/Literacy/cl-latex-G584992025/exercise.tex:14: Undefined control sequence.
+   99  l.14 \maketitle
+
+  109   ***********
+  110: LaTeX2e <2024-11-01> patch level 2
+  111  L3 programming layer <2025-01-18>
+
+cl-latex-G584992025/junsrt.bst:
+  1: 	% version 0.30 for JBibTeX versions 0.30 or later, LaTeX version 2.09.
+  2  	% Copyright (C) 1990, all rights reserved.
+
+cl-latex-G584992025/latexmkrc:
+  1: $latex = 'uplatex %O %S';
+  2  $bibtex = 'upbibtex %O %S';
+
+cl-latex-G584992025/README.md:
+  1: # LaTeX
+  2  
+
+  7  
+  8: - [ ] **ホームディレクトリに `.latexmkrc` がコピーされている**
+  9  
+
+cl-latex-G584992025/sample.log:
+    1: This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.6.1)  29 JUN 2025 16:42
+    2  entering extended mode
+
+    5   %&-line parsing enabled.
+    6: **/Users/minohara/Library/CloudStorage/Dropbox/01-University/01-Education/10-Lecture/Literacy/Exercise/LaTeX/sample.tex
+    7: (/Users/minohara/Library/CloudStorage/Dropbox/01-University/01-Education/10-Lecture/Literacy/Exercise/LaTeX/sample.tex
+    8: pLaTeX2e <2023-02-14u04>+1, based on
+    9: LaTeX2e <2024-11-01> patch level 2
+   10  L3 programming layer <2025-01-18>
+   11: (/usr/local/texlive/2025/texmf-dist/tex/uplatex/base/ujarticle.cls
+   12: Document Class: ujarticle 2020/09/30 v1.8f-u00 Standard upLaTeX class
+   13  \c@@paper=\count195
+   14: (/usr/local/texlive/2025/texmf-dist/tex/uplatex/base/ujsize11.clo
+   15: File: ujsize11.clo 2020/09/30 v1.8f-u00 Standard upLaTeX file (size option)
+   16: LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+   17  (Font)              scaled to size 10.53629pt on input line 28.
+   18: LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+   19  (Font)              scaled to size 10.53629pt on input line 28.
+
+   31  \symmincho=\mathgroup4
+   32: LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+   33  (Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 616.
+
+   37  \heisei=\count270
+   38: ) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+   39: Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+   40:  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+   41  Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+   42  \KV@toks@=\toks18
+   43: ) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+   44: Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+   45:  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+   46  Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+   47: ) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+   48  File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+
+   50  Package graphics Info: Driver file: dvipdfmx.def on input line 106.
+   51:  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+   52  File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
+
+   55  \Gin@req@width=\dimen161
+   56: ) (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+   57  \Urlmuskip=\muskip17
+   58  Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+   59: ) (./layout.tex) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+   60  File: l3backend-dvipdfmx.def 2024-05-08 L3 backend support: dvipdfmx
+
+   67  
+   68: LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+   69: LaTeX Font Info:    ... okay on input line 11.
+   70: LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+   71: LaTeX Font Info:    ... okay on input line 11.
+   72: LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+   73: LaTeX Font Info:    ... okay on input line 11.
+   74: LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+   75: LaTeX Font Info:    ... okay on input line 11.
+   76: LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+   77: LaTeX Font Info:    ... okay on input line 11.
+   78: LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+   79: LaTeX Font Info:    ... okay on input line 11.
+   80: LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+   81: LaTeX Font Info:    ... okay on input line 11.
+   82: LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 11.
+   83: LaTeX Font Info:    ... okay on input line 11.
+   84: LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 11.
+   85: LaTeX Font Info:    ... okay on input line 11.
+   86: LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+   87  (Font)              scaled to size 16.62714pt on input line 13.
+   88: LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+   89  (Font)              scaled to size 16.62714pt on input line 13.
+   90: LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+   91  (Font)              scaled to size 11.54663pt on input line 13.
+   92: LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+   93  (Font)              scaled to size 11.54663pt on input line 13.
+   94: LaTeX Font Info:    External font `cmex10' loaded for size
+   95  (Font)              <12> on input line 13.
+   96: LaTeX Font Info:    External font `cmex10' loaded for size
+   97  (Font)              <8> on input line 13.
+   98: LaTeX Font Info:    External font `cmex10' loaded for size
+   99  (Font)              <6> on input line 13.
+  100: LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+  101  (Font)              scaled to size 7.69775pt on input line 13.
+  102: LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+  103  (Font)              scaled to size 5.77332pt on input line 13.
+  104: LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+  105  (Font)              scaled to size 13.85594pt on input line 15.
+  106: LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+  107  (Font)              scaled to size 13.85594pt on input line 15.
+  108: LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
+  109  (Font)              Font shape `JT2/gt/m/n' tried instead on input line 15.
+  110: LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+  111  (Font)              scaled to size 13.85594pt on input line 15.
+  112: LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
+  113  (Font)              Font shape `JY2/gt/m/n' tried instead on input line 15.
+  114: LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+  115  (Font)              scaled to size 13.85594pt on input line 15.
+
+  117  <possession.png>
+  118: LaTeX Font Info:    External font `cmex10' loaded for size
+  119  (Font)              <10.95> on input line 42.
+
+  127   ***********
+  128: pLaTeX2e <2023-02-14u04>+1, based on
+  129: LaTeX2e <2024-11-01> patch level 2
+  130  L3 programming layer <2025-01-18>
+
+~/Library/Application Support/Code/User/settings.json:
+   4      "markdown-preview-enhanced.enableScriptExecution": true,
+   5:     "latex-workshop.latex.tools": [
+   6          
+
+  10          {
+  11:             "name": "latexmk",
+  12:             "command": "latexmk",
+  13              "args": [
+
+  23          {
+  24:             "name": "lualatexmk",
+  25:             "command": "latexmk",
+  26              "args": [
+
+  29                  "-file-line-error",
+  30:                 "-lualatex",
+  31                  "-outdir=%OUTDIR%",
+
+  36          {
+  37:             "name": "xelatexmk",
+  38:             "command": "latexmk",
+  39              "args": [
+
+  42                  "-file-line-error",
+  43:                 "-xelatex",
+  44                  "-outdir=%OUTDIR%",
+
+  49          {
+  50:             "name": "latexmk_rconly",
+  51:             "command": "latexmk",
+  52              "args": [
+
+  57          {
+  58:             "name": "pdflatex",
+  59:             "command": "pdflatex",
+  60              "args": [
